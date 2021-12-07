@@ -1,0 +1,36 @@
+QPushButton {
+  background-color: red;
+  border-style: outset;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: beige;
+  font: bold 14px;
+  min-width: 10em;
+  padding: 6px;
+}
+QPushButton:pressed {
+  background-color: rgb(255, 255, 255);
+  border-style: inset;
+}
+QLabel#From {
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(255, 0, 255);
+}
+QLabel#Subject {
+  font-weight: bold;
+  /* background-color: rgb(0,0,0); */
+  font-size: 12px;
+  color: rgb(0, 155, 255);
+}
+QLabel#Subject2 {
+  font-weight: bold;
+  /* background-color: rgb(0,0,0); */
+  font-size: 20px;
+  color: rgb(0, 155, 255);
+}
+QLabel#Snippet {
+  font-size: 12px;
+  color: rgb(10, 10, 10);
+  /* background-color: rgb(255,255,255); */
+}
